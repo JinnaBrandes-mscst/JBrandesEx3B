@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.minnstate.go.go1375rs.jbrandesex3b.JBrandesEx3BMainActivity">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="489dp"
+        android:layout_marginLeft="17dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="-3dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="21dp"
+            android:text="@string/input_prompt"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/inputNumbersEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="21dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="@string/input_numbers" />
+
+        <Button
+            android:id="@+id/loop1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/inputNumbersEditText"
+            android:layout_alignStart="@+id/inputNumbersEditText"
+            android:layout_below="@+id/inputNumbersEditText"
+            android:layout_marginTop="14dp"
+            android:text="@string/loop1_button_prompt" />
+
+        <Button
+            android:id="@+id/loop2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/loop1Button"
+            android:layout_alignBottom="@+id/loop1Button"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:layout_toEndOf="@+id/loop1Button"
+            android:layout_toRightOf="@+id/loop1Button"
+            android:text="@string/loop2_button_prompt" />
+
+        <Button
+            android:id="@+id/loop3Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/loop1Button"
+            android:layout_alignStart="@+id/loop1Button"
+            android:layout_below="@+id/loop1Button"
+            android:layout_marginTop="18dp"
+            android:text="@string/loop3_button_prompt" />
+
+        <Button
+            android:id="@+id/loop4Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/loop3Button"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/loop3Button"
+            android:layout_toRightOf="@+id/loop3Button"
+            android:text="@string/loop4_button_prompt" />
+
+        <EditText
+            android:id="@+id/outputNumbersText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/loop3Button"
+            android:layout_alignStart="@+id/loop3Button"
+            android:layout_below="@+id/loop3Button"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

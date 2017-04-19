@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JBrandesEx3B</string>
+    <string name="input_prompt">Enter 10 Numbers</string>
+    <string name="input_numbers">5 6 4 7 3 8 2 9 1 10</string>
+    <string name="loop1_button_prompt">#1 NUM * 10</string>
+    <string name="loop2_button_prompt">#2 SUM TWO NUMBERS</string>
+    <string name="loop3_button_prompt">#3 COUNT BY 10s</string>
+    <string name="loop4_button_prompt">#4 SUM of NUMBERS</string>
+
+</resources>
